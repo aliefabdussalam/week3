@@ -1,0 +1,83 @@
+body{
+    width: 100%;
+    
+}
+
+main{
+    display: flex;
+    width: 100%;
+}
+.container .jumbotron{
+    height: 645px;
+    width: 100%;
+   
+    background-size: cover;
+    background-image: url(./nathan-dumlao-71u2fOofI-U-unsplash\ 2.png);
+}
+.container .jumbotron h1{
+    width: 40%;
+    margin-left: 150px;
+    color: white;
+    font-size: 45px;
+    margin-top: 78px;
+}
+.container .jumbotron p{
+    width: 40%;
+    margin-left: 150px;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Rubik', sans-serif;  
+}
+.container .jumbotron button{
+    width: 300px;
+    height: 65px;
+    left: 817px;
+    top: 309px;
+    padding-left: 15px;
+    border-radius: 15px;
+    background: #FFBA33;
+    box-shadow: 0px 6px 20px rgba(255, 186, 51, 0.4);
+    font-weight: 700;
+    font-size: 20px;
+    border-style: none;
+    font-family:"Rubik", sans-serif;
+    color: #6A4029;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.content{
+    margin-top: 150px;
+    display: flex;
+    width: 100%;
+   
+}
+.content img{
+    width: 50%;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.content .desc{
+    width: 50%;
+    margin-left: 150px;
+    font-family:"Rubik", sans-serif;
+}
+.content .desc .title_desc{
+    font-family:"Rubik", sans-serif;
+    font-style: medium;
+}
+.content .desc p{
+    font-family:"Rubik", sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.content .desc ul li:before {
+    content: "\2022";
+    color: #2FAB73;
+    
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
