@@ -28,10 +28,12 @@ body{
       display: flex;
       justify-content: center;
       margin-top: 10px;
+
     }
     .primary-menu .menu{
       display: flex;
       list-style-type: none;
+      
     }
     .primary-menu .menu li{
       margin: 15px;
@@ -39,6 +41,12 @@ body{
       font-weight: 400;
       color: #4F5665;
       cursor: pointer;
+      text-decoration: none;
+    }
+    .primary-menu .menu li a{
+      text-decoration: none;
+      text-decoration-color: none;
+      color: #4F5665;
     }
     .primary-menu .menu li:hover{
       color: #6A4029;
@@ -77,5 +85,66 @@ body{
         border-style: none;
         
     }
-    
+    .nav-mobile{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      box-shadow: 1px 1px 10px #ccc;
+    }
+    /* styling untuk class logo */
+    .logo{
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .dropdown{
+      width: 70%;
+      display: flex;
+    }
+    /* styling untuk pembungkus icon hamburger menu-mobile */
+    .icon-menu-mobile{
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    /* styling icon hamburger menu-mobile */
+    .icon-menu-mobile img{
+      width: 50px;
+      display: none;
+    }
+
+    /* untuk mengatur supaya primary menu-mobile & secondary menu-mobile menjadi horizontal */
+    .menu-mobile{
+      display: flex;
+      width: 100%;
+    }
+    .primary-menu-mobile{
+      flex-grow: 1;
+    }
+    .primary-menu-mobile ul {
+      list-style-type: none;
+      display: flex;
+    }
+    .primary-menu-mobile ul li{
+      padding: 10px 20px;
+    }
+    .secondary-menu-mobile{
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+    }
+    .secondary-menu-mobile ul {
+      list-style-type: none;
+      display: flex;
+    }
+    .secondary-menu-mobile ul li{
+      padding: 10px 20px;
+    }
+    .nav-mobile{
+      display: none;
+    }
+    nav{
+      display: block;
+    }
    

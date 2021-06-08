@@ -75,3 +75,21 @@ body{
   .pict_profile{
       border-radius: 75px;
   }
+  .nav-mobile{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 1px 1px 10px #ccc;
+  }
+  /* styling untuk class logo */
+  .logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+ 
+
+  
+ 

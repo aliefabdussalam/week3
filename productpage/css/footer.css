@@ -1,92 +1,116 @@
 footer{
-    background-color: #F8F8F8;  
-    
+  font-family:"Rubik", sans-serif;
+  background-color: #f3f3f3;
+  height: 560px;
+  display: flex;
+  padding-top: 80px;
 }
-.container_footer{
-    width: 100%;
-    background-color: #F8F8F8;
-   
-   
-    
-    display: flex;
-    
-  }
-.about{
-    margin-top: 80px;
-    margin-left: 150px;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
+.logo2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -10px;
+  margin-top: 25px;
 }
-.about_info{
-    font-size: 10px;
-    font-family: 'Rubik', sans-serif;
-    
-
+.logo2 img{
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
 }
-  .logo{
-    width: 30%;
-    display: flex;
-    /* vertical align */
-    margin-top: 20px;
-    /* horizontal align */
-    justify-content: center;
-  }
-  .logo h1{
-    font-size: 15px;
-    align-items: center;
-    margin-top: 5px;
-    margin-left: 5px;
-  }
+.logo2 h1{
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.section1 p{
+  margin-top: 10px;
+  margin-left: 145px;
+  font-size: 15px;
+  font-weight: 550;
+  font-family: rubik;
+  text-align: left;
+  color: #4F5665;
+  line-height: 20px;
+}
+footer .social{
+  display: flex;
+  margin-left: 128px;
+}
+footer .social img{
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  transition-duration: 55ms;
+}
+footer .social img:hover{
+  transform: scale(1.1);
+}
+footer .since{
+  margin-top: 5px;
+  color: #AFB5C0;
+  font-weight: normal;
+  font-size: 12px;
+}
+footer ol{
+  margin-top: 35px;
+  margin-left: 360px;
+  list-style-type: none;
+}
+footer ol b{
+  font-size: 18px;
+}
 
-  .primary-footer{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 80px;
-    margin-left: 450px;
-  }
-  .primary-footer .footer{
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    font-family: 'Rubik', sans-serif;
-    
-  }
-  .primary-footer .footer li{
-      margin: 10px;
-    font-size: 13px;
-    font-weight: 400;
-    color: #4F5665;
-    cursor: pointer;
-  }
-  .primary-footer .footer li:hover{
-    color: #6A4029;
-    font-weight: 700;
-  }
-  
+footer ol li{
+  font-family: rubik;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #4F5665;
+}
+footer ol li:hover{
+  color: #6a4029;
+  font-weight: 600;
+}
+footer .section3 ol{
+  margin-left: 100px;
+}
+    @media screen and (max-width: 576px){
 
-  .secondary-footer .footer{
-   margin-top: 95px;
+      footer{
+      width: 100%;
       display: flex;
-    list-style-type: none;
-    flex-direction: column;
-    font-family: 'Rubik', sans-serif;
-  }
-  .secondary-footer .footer li{
-      margin: 10px;
-    font-size: 13px;
-    font-weight: 400;
-    color: #4F5665;
-    cursor: pointer;
-  }
-  .secondary-footer .footer li{
-    margin: 10px;
-    font-size: 13px;
-    cursor: pointer;
-  }
-  .secondary-footer .footer li:hover{
-      color: #6A4029;
-      font-weight: 700;
+      flex-direction: column;
+    }
+      footer ol{
+         
+      margin-left: 70px;
+    
+    }
+    .section1 p{
+      margin-top: 10px;
+      margin-left: 100px;
+      font-size: 8px;
+      font-weight: 550;
+      font-family: rubik;
+      text-align: left;
+      color: #4F5665;
+      line-height: 20px;
+    }
+    footer .social{
+      display: flex;
+      margin-left: 100px;
+    }
+    footer ol b{
+      font-size: 9px;
+    }
+    
+    footer ol li{
+      font-family: rubik;
+      margin-top: 20px;
+      font-size: 8px;
+      font-weight: 400;
+      cursor: pointer;
+      color: #4F5665;
+    }
     }
